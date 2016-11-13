@@ -1,0 +1,109 @@
+html {
+	background-image: url(css-homework/seigaiha.png);
+}
+
+body {
+	background: url(css-homework/BA_new_icon.png) no-repeat top right fixed;
+}
+
+.header {
+	font-size: 40px;
+	font-family: Arial, sans-serif;
+	color: #333;
+	text-align: center;
+}
+
+.additional_info {
+	font-size: 20px;
+	font-style: italic;
+	color: #ccc;
+}
+
+.subheader {
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #888;
+}
+
+.list {
+	text-align: center;
+	list-style: none;
+}
+
+.list li:hover {
+	background: url(css-homework/short_arrow_right-512.png) no-repeat #eee;
+}
+
+.content {
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	text-decoration: none;
+	font-variant: small-caps;
+	color: #0000ff;
+}
+
+.content:active {
+	text-decoration: overline;
+}
+
+.content:hover {
+	color: #333;
+}
+
+.content:visited {
+	color: #a9a;
+}
+
+.heading {
+	font-family: cursive;
+	font-size: 35px;
+	text-align: justify;
+	color: #222;
+}
+
+.paragraph {
+	font-size: 18px;
+	font-family: cursive;
+	font-weight: bold;
+	text-indent: 40px;
+	text-align: justify;
+}
+
+.paragraph:first-line {
+	font-size: 27px;
+	color: #a83;
+}
+
+.paragraph:first-letter {
+	color: #ea3;
+	font-size: 54px;
+}
+
+.table {
+	font-size: 18px;
+	font-family: Verdana;
+}
+
+.thead {
+	background-color: #666;
+	color: white;
+}
+
+.footer_row {
+	background-color: #a83;
+	color: white;
+}
+
+.table_row:hover,
+.footer_row:hover {
+	background-color: #ccc; 
+}
+
+.back {
+	color: #0000ff;
+}
+
+.back:visited {
+	color: #a9a;
+}

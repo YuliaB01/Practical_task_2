@@ -32,7 +32,8 @@ body {
 }
 
 .list li:hover {
-	background: url(css-homework/short_arrow_right-512.png) no-repeat #eee;
+	list-style-image: url(css-homework/short_arrow_right-512.png);
+	background: #eee;
 }
 
 .content {
@@ -71,13 +72,13 @@ body {
 }
 
 .paragraph:first-line {
-	font-size: 27px;
+	font-size: 1.5em;
 	color: #a83;
 }
 
 .paragraph:first-letter {
 	color: #ea3;
-	font-size: 54px;
+	font-size: 2em;
 }
 
 .table {
